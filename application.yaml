@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/learning?createDatabaseIfNotExist=true
+        username: khamet
+        password: password
+        hikari:
+            schema: auth_store
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: update
